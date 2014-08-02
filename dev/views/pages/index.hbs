@@ -1,0 +1,12 @@
+<div class="main-content">
+    {{#each index.items}}
+    <div class="portfolio-item">
+        <img src="{{imagePath}}" class="portfolio-image" alt="{{altText}}"/>
+        <div class="portfolio-content">
+            <h3 class="portfolio-title">{{title}}</h3>
+            <span class="underline">_</span>
+            <span class="portfolio-platform">{{description}}</span>
+        </div>
+    </div>
+    {{/each}}
+</div>

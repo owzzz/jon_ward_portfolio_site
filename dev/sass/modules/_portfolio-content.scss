@@ -1,0 +1,121 @@
+@import "../partials/variables";
+
+/* MOBILE & DEFAULT STYLES
+ *************************************************************/
+
+.portfolio-item {
+	margin-bottom: 40px;
+	
+	.portfolio-image {
+		width: 100%;
+		margin-bottom: 19px;
+	}
+	
+	.portfolio-title {
+		font-size: 13px;
+		margin-top: 0;
+		margin-bottom: -7px;
+	}
+	
+	.underline {
+		display: block;
+		margin-bottom: 5px;
+	}
+	
+	.portfolio-platform {
+		font-size: 12px;
+	}
+}
+
+/* DESKTOP STYLES
+ *************************************************************/
+
+@media only screen and (min-width: 540px) {
+	.portfolio-item  {
+		width: 47.5%;
+		float: left;
+
+	}
+
+	.portfolio-item:nth-child(even) {
+		margin-left: 2.5%;
+	}
+
+	.portfolio-item:nth-child(odd) {
+		margin-right: 2.5%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.portfolio-item  {
+		width: 31.1%;
+		float: left;
+		margin-right: 3.33333%;
+		margin-left: 0;
+
+	}	
+
+	.portfolio-item:nth-child(even) {
+		margin-left: 0;
+	}
+
+	.portfolio-item:nth-child(odd) {
+		margin-right: 3.33333%;
+	}
+
+
+
+	.portfolio-item:nth-child(3n) {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.portfolio-item  {
+		width: 23.5%;
+		float: left;
+		margin-right: 2%;
+		margin-left: 0;
+
+	}	
+
+	.portfolio-item:nth-child(even) {
+		margin-left: 0;
+	}
+
+
+	.portfolio-item:nth-child(3n),
+	.portfolio-item:nth-child(odd) {
+		margin-right: 2%;
+	}
+
+	.portfolio-item:nth-child(4n) {
+		margin-right: 0;
+	}
+}
+
+@media only screen and (min-width: 1220px) {
+	.portfolio-item  {
+		width: 18.4%;
+		float: left;
+		margin-right: 2%;
+		margin-left: 0;
+
+	}	
+
+	.portfolio-item:nth-child(even) {
+		margin-left: 0;
+	}
+
+
+	.portfolio-item:nth-child(3n),
+	.portfolio-item:nth-child(odd),
+	.portfolio-item:nth-child(4n) {
+		margin-right: 2%;
+	}
+
+	.portfolio-item:nth-child(5n) {
+		margin-right: 0;
+	}
+}

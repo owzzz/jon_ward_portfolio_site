@@ -1,0 +1,41 @@
+@import "partials/all";
+@import "modules/all";
+@import "vendor/all";
+
+
+section {
+	margin-bottom: $vertical-Spacing-Med;
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 1540px;
+	margin: 0 auto;
+	padding: 13%;
+}
+
+.main-content {
+	overflow: hidden;
+}
+
+
+@media only screen and (min-width: 540px) {
+	.wrapper {
+		padding: 3%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.wrapper {
+		padding: 3%;
+	}
+}
+
+	
+
+
+

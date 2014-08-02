@@ -1,0 +1,53 @@
+@import "../partials/variables";
+
+/* MOBILE & DEFAULT STYLES
+ *************************************************************/
+
+header {
+	margin-bottom: 50px;
+	overflow: hidden;
+	
+	.logo {
+		text-indent: -9999px;
+		overflow:hidden;
+		width: 42px;
+		height: 24px;
+		background: url('../../img/logo.png') 0 0 no-repeat;
+		clear: both;
+		margin-bottom: 35px;
+	}
+
+	.site-info {
+		float: left;
+		width: 50%;
+		
+		.title {
+			font-weight: bold;
+		}
+		
+		span {
+			display: block;
+			font-size: 13px;
+		}
+	}
+}
+
+/* DESKTOP STYLES
+ *************************************************************/
+
+@media only screen and (min-width: 768px) {
+	header {
+		margin-bottom: 85px;
+		.logo {
+			float: left;
+			margin-right: 36px;
+
+		}
+
+		.site-info {
+			float: left;
+			width: 174px;
+
+		}
+	}
+}
