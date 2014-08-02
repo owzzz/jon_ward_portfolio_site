@@ -1,34 +1,8 @@
-# HTML5 Bootstrap
+# Jon Ward Portfolio Site
 
 ####Introduction
 
-Setting up Grunt tooling at the start of projects can be tedious and time consuming. After doing it for the millionth time I decided to create a base HTML5 bootstrap to roll projects.
-
-
-#### Features
-
-* [Auto Prefixer](https://github.com/nDmitry/grunt-autoprefixer‎)
-* [SASS Compilation](https://github.com/gruntjs/grunt-contrib-sass)
-* [Bower](http://bower.io/)
-* [JS Browserify](http://browserify.org)
-* [JS Uglify](https://github.com/gruntjs/grunt-contrib-uglify)
-* [Source Maps](http://www.html5rocks.com/en/tutorials/developertools/sourcemaps/)
-* [Newer](https://github.com/tschaub/grunt-newer)
-* [Responsive Images](https://github.com/andismith/grunt-responsive-images)
-* [Image Minification](https://github.com/gruntjs/grunt-contrib-imagemin)
-* [HTML Minification](https://github.com/gruntjs/grunt-contrib-htmlmin‎)
-* [Watch / Live reload](https://github.com/gruntjs/grunt-contrib-watch)
-* [Jasmine](https://github.com/gruntjs/grunt-contrib-jasmine)
-* [Istanbul Code Coverage](https://github.com/maenu/grunt-template-jasmine-istanbul)
-* [PhantomJS](http://phantomjs.org/)
-* [Assemble](http://assemble.io/)
-* [YUIDocs](https://github.com/gruntjs/grunt-contrib-yuidoc)
-* Style Guide
-
-#### Libraries
-
-* [Normalize](http://necolas.github.io/normalize.css/)
-* [Modernizr](http://modernizr.com/)
+Minimalist Responsive Grid Site designed by Jon Ward, Developed By Owain Llewellyn
 
 #### Requirements
 Make sure your have the following installed with these versions or greater when running the bootstrap
@@ -141,22 +115,3 @@ grunt styleguide
 grunt docs
 ```
 
-#### FAQ
-
-#### Road Map
-
-A list of upcoming features for consideration. Feel free to add feature requests.
-
-* Sonar Integration
-* Custom Yeoman Generator (AngularJS or HTML5)
-
-
-#### Change log
-
-Recent Updates to repo
-
-* Added Style Guide (Work In Progress) (21/05/2014)
-* Swapped out Browserify-shim for napa (17/05/2014)
-* Removed Neat and Bourbon (13/05/2014)
-* Added Travis Build File (28/04/2014)
-* Added Istanbul Code Coverage (28/04/2014)
